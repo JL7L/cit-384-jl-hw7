@@ -1,12 +1,10 @@
 # My resume website
 
-This file describes your project to the community. What's your cool website about? What makes it special?
-
-ヽ(๏∀๏ )ﾉ
+Here is a link to my website: https://jl7l.github.io/cit-384-jl-hw7/
 
 ## ← index.html
 
-Where you'll write the content of your website. 
+Where you'll write the content of your website.
 
 ## ← styles.css
 

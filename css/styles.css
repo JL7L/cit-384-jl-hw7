@@ -10,7 +10,7 @@
 html {
     box-sizing: border-box;
 }
-*, *:before, *after {
+*, *:before, *:after {
     box-sizing: inherit;
 }
 
@@ -70,6 +70,7 @@ h4 {
     float: left; 
     padding-right: 3%; 
     min-height: 175px;
+    border: 2px;
 }
 .column-wide {
     width: 70%; 
@@ -86,7 +87,8 @@ header {
 }
 
 .profile-img {
-    border-radius:100%;
+    border-radius:50%;
+    width: 100%; 
    /*width: 300px; 
     float: left;
     margin-right: 30 px;*/
@@ -110,7 +112,7 @@ header {
 /* Footer 
 ------------------------------------*/
 footer {
-    background: #B1D0E0;
+    background: #1A374D;
     font-family: 'Roboto Slab', serif;
     text-align: center
 }

@@ -72,12 +72,23 @@ h4 {
     min-height: 175px;
     border: 2px;
 }
+
 .column-wide {
     width: 70%; 
     float: left; 
     min-height: 225px;
 }
 
+.column-wider {
+    width: 70%; 
+    float: left; 
+    min-height: 225px;
+    padding-left: 4.5%;
+}
+
+.alter {
+    padding-left: 10%;
+}
 /* Header  
 ------------------------------------*/
 header {

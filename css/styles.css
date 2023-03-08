@@ -13,61 +13,50 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
 body {
     font-family: 'Roboto Slab', serif;
     margin: 0;
 }
-
 h1 {
     font-family: 'Roboto Slab', serif;
     color: black;
     font-size: 2.8em;
     margin: 0;
 }
-
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgba(39, 37, 37, 0.678);
+    color: srgba(22, 22, 22, 0.986);
     font-size: 1.7em;
     margin-top: 0;
     margin: 0;
 }
-
 h2.student-name {
 
     font-family: Arial, Helvetica, sans-serif ;
     font-size: 1.9em;
-    color: rgba(0, 0, 0, 0.507); 
-    
+    color: rgba(22, 22, 22, 0.986);  
 }
-
 h3 {
     font-family: 'Roboto Slab', serif;
     font-size: 1.2em;
 }
-
 h4 {
     font-size: 1em;
 }
-
 #copyright {
-    color: rgb(172, 172, 172);
+    color: black;
     font-family: 'Roboto Slab', serif;
 }
-
 .content-wrap {
     max-width: 950px; 
     margin: 0 auto;
     padding: 50px;
     overflow: hidden;
 }
-
 .contact-info a {
     padding: 10px; 
     display: inline-block;
 }
-
 .column-narrow {
     width: 30%; 
     float: left; 
@@ -75,36 +64,34 @@ h4 {
     min-height: 175px;
     border: 2px;
 }
-
 .column-wide {
     width: 70%; 
     float: left; 
     min-height: 225px;
 }
-
 .column-wider {
     width: 70%; 
     float: left; 
     min-height: 225px;
     padding-left: 4.5%;
 }
-
 .alter-padding {
     padding-left: 10%;
 }
-
 .grey-text {
 
-    color: rgb(172, 172, 172);
+    color: black;
+}
+.degrees {
+    font-weight: bold;
+    font-family: 'Golos Text', sans-serif;
 }
 /* Header  
 ------------------------------------*/
 header {
-    background: #1A374D;
-    color: rgb(172, 172, 172);
+    background: #B1D0E0;
     font-family: 'Golos Text', sans-serif;
 }
-
 .profile-img {
     aspect-ratio: 1 / 1;
     border-radius:50%;
@@ -112,27 +99,33 @@ header {
    /*width: 300px; 
     float: left;
     margin-right: 30 px;*/
-    
+}
+/* Relevant Coursework
+------------------------------------*/
+#Work {
+    background:#1A374D;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(172, 172, 172);
 }
 /* Education
 ------------------------------------*/
 #Education {
+    
     background: #6998AB;
     font-family: 'Roboto Slab', serif;   
 }
-
-/* Awards and Relevant Coursework
-------------------------------------*/
-#Work {
-    background:#406882;
-    font-family: 'Roboto Slab', serif;
-}
-
-
 /* Footer 
 ------------------------------------*/
 footer {
-    background: #1A374D;
+    /* background: #B1D0E0; */
+    background:#406882;
     font-family: 'Roboto Slab', serif;
     text-align: center
+}
+a:link {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none; }
+a:hover {
+    background-color: black;
 }
